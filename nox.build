@@ -1,0 +1,10 @@
+project "ohshittings" {
+    version = file("./VERSION")
+    description = "OhSh*t integration and acceptance application."
+    version_files = ["Cargo.toml", "VERSION"]
+
+    rust_executable "ohshittings" {
+        sources = ["src/main.rs"]
+        install = true
+    }
+}
