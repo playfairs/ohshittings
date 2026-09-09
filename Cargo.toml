@@ -1,0 +1,9 @@
+[package]
+name = "ohshittings"
+version = "0.1.0"
+edition = "2024"
+description = "OhSh*t integration and acceptance application"
+license = "Unlicense"
+
+[dependencies]
+ohshit = { path = "../ohshit" }
